@@ -1,0 +1,194 @@
+#titulo {
+    color:tomato;
+}
+
+p.especial {
+    color: mediumseagreen;
+}
+
+.texto {
+    color: slateblue;
+}
+
+div p {
+    color: aquamarine;
+}
+div h2, div h3 {
+    color: brown;
+}
+
+*{
+    font-size: 50px;
+    /*color: black;*/
+
+}
+
+/*Holaaaaa*/
+/*
+.color {
+    color:#ff0000; 
+}
+.color {
+    color: rgb(0,255,255)
+}
+*/
+ 
+.color, .texto {
+    /* border: 3px black solid; */
+    /*
+        dotted
+        dashed
+        solid
+        double
+        groove
+        ridge
+        inset
+        outsed
+        none
+        hidden
+        */
+        border-style: double;
+        border-color: blue;
+        border-radius: 5px;
+        border-width: 0.1em ;
+}
+
+#fondo {
+    background-color: rgba(0,255,255);
+    /* opacity: 0.3; */
+    height: 500px;
+   /* background-image: url("IMG/v4.png");*/
+    
+    /*background-repeat: repeat-y ;
+    background-position: center bottom;*/
+    background: #f00 url("IMG/v4.png") repeat-y center bottom / 500px 500px;
+   /* background-size: 200px 200px;*/
+
+}
+
+.margen {
+    background-color:blueviolet ;
+    margin: 15px;
+    padding: 30px 250px ;
+    border: solid 5px black;
+    height: 300px;
+    width: 250px;
+    overflow: scroll;
+    outline: 10px solid red;
+}
+
+
+.text {
+    font-family: 'Anta',sans-serif;
+    text-align: center;
+    text-decoration: overline;
+    text-shadow: 2px 5px 5px gray;
+}
+
+/*Siempre se deben usar en este orden sea cual sea el necesario*/
+    
+a:link{ 
+     color: blueviolet;
+     border: solid 5px black;
+     font-family: 'Anta', sans-serif;
+}
+
+a:visited {
+    color: gray;
+}
+
+a:hover {
+    color: yellow;
+}
+
+a:active {
+    color: #f00;
+}
+
+ul {
+    background-color: cyan;
+    list-style-type:disc;
+    /*padding-left: 0;
+    /*list-style-position: inside;*/
+}
+
+table{
+    width: 100%;
+    border-collapse: collapse;
+}
+
+th,td{
+    border: solid 1px black;
+    padding: 10px;
+}
+
+th {
+    background-color: rgb(202, 89, 13);
+    color: white;
+    text-align: left;
+}
+
+tr:nth-child(even){
+    background-color: #d8c7c7;
+}
+
+tr:hover {
+    background-color:gray ;
+    cursor: pointer;
+}
+
+span{
+    display: block;
+    /*display: none;*/
+    /*visibility: hidden;*/
+    max-width: 300px;
+    background-color: #f00;
+}
+
+.inLine{
+    display: inline;
+}
+
+td:hover {
+    color: white;
+}
+
+#position{
+    position:sticky ;
+    left: 50px;
+    top: 25px;
+}
+
+.left {
+    float: left;
+    width: 250px;
+    height: 250px;
+}
+
+.rigth{
+    float: right;
+    width: 100px;
+}
+
+.container{
+    height: 400px;
+}
+
+.column{
+    margin: 0;
+    padding: 10px 0px;
+    width: 33.3%;
+}
+
+.inLine-block{
+    display: inline-block;
+    height: 100px;
+    background-color: #f00;
+}
+ .center{
+    padding: 50px 0;
+    text-align: center;
+    width: 200px;
+    margin: 0 auto;
+    background-color: aqua;
+ }
